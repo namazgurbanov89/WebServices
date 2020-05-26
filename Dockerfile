@@ -15,4 +15,4 @@ RUN npm install
 COPY . /app
 
 # start app
-CMD node app.js -p5000
+CMD node app.js -p3001

@@ -20,6 +20,6 @@ app.use('/service', require('./routes/CronRoute'));
 app.use('/ui', require('./routes/UIRoute'));
 
 
-app.listen(3000, () => {
+app.listen(3001, () => {
     console.log('Server Started Running');
 })
